@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1 id="titulo">Calculadora Web</h1>
+        
+        <input type="text" id="display" disabled>
+
+        <div class="buttons">
+            <button id="n1">1</button>
+            <button id="n2">2</button>
+            <button id="n3">3</button>
+            <button id="operador/" class="op">/</button>
+
+            <button id="n4">4</button>
+            <button id="n5">5</button>
+            <button id="n6">6</button>
+            <button id="operador*" class="op">*</button>
+
+            <button id="n7">7</button>
+            <button id="n8">8</button>
+            <button id="n9">9</button>
+            <button id="operador-" class="op">-</button>
+
+            <button id="n0">0</button>
+            <button id="nC" class="clear">C</button>
+            <button id="n=" class="equals">=</button>
+            <button id="operador+" class="op">+</button>
+        </div>
+
+        <div class="result-area">
+            <div id="resultado"></div>
+            <div id="historico"></div>
+        </div>
+    </div>
+
+    <script src="calculadora.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
